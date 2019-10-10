@@ -60,6 +60,7 @@ in and `ORDER BY` the sum of the `aisle`.
 
 ```sql
 SELECT aisle, SUM(quantity) FROM groceries GROUP BY aisle ORDER BY SUM(quantity);
+
 ```
 
 ### Returns
